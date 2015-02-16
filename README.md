@@ -7,8 +7,8 @@ This project is an experiment for voting over websockets.
 * Server is written in [Nim](http://nim-lang.org/)
 * Client UI built using [React](http://facebook.github.io/react/)
 
-
-    nim c -d:release vote.nim
-    websocketd --port=8080 ./vote
-    open client/index.html
-
+```bash
+nim c -d:release vote.nim
+websocketd --port=8080 ./vote
+open client/index.html
+```
